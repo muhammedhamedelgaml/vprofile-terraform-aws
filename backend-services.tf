@@ -15,9 +15,6 @@ resource "aws_elasticache_subnet_group" "vprofile-elasticache-subent-group" {
   name = "vprofile-elasticache-subent-group"
   subnet_ids =  [module.vpc.private_subnets[0],module.vpc.private_subnets[1],module.vpc.private_subnets[2]]
  
- tags = {
-   name  =  "subnet grp for elasticache" 
-  }
 }
 
 
