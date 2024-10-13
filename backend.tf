@@ -3,9 +3,9 @@
 
 terraform {
   backend "s3" {
-      bucket = "vprofile-terra-state"
-      key    = "terraform/statefile"
-      region = "us-east-2"
+    bucket = "vprofile-terra-state"
+    key    = "terraform/statefile"
+    region = "us-east-2"
 
   }
 }
