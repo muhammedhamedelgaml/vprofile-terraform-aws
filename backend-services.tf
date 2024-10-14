@@ -38,7 +38,7 @@ resource "aws_db_instance" "vprofile-RDS" {
 
   username = var.DB-USER
   password = var.DB-PASS
-  #   name     = var.DB-NAME
+  db_name   = var.DB-NAME
 }
 
 
